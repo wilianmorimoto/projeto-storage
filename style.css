@@ -167,6 +167,11 @@ footer {
 }
 
 @media (min-width: 1200px) {
+    body {
+        background: url('images/bg-desktop.png') no-repeat top center fixed;
+        background-size: cover;
+    }
+
     main {
         max-width: 900px;
 
